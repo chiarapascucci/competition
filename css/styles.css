@@ -1,0 +1,146 @@
+
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  overflow-x: hidden;
+}
+
+.aboutp {
+  padding: 50px 0px 0px 0px;
+  font-size: 18px;
+}
+.topBar {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: cover;
+  padding: -10px;
+  margin: -10px;
+  overflow-x: hidden;
+
+}
+
+#banner {
+  background-size: cover;
+  background-image: url(../images/Jacky28.3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+#index_background {
+  background-image: url(../images/Jacky45.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.smaller {
+  font-size: 17px;
+}
+
+
+.topBarClass {
+  color: white;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: inline-flex;
+  padding: 10px 70px 10px 40px;
+  font-family: 'Cantarell', sans-serif;
+  overflow-x: hidden;
+  border-top: none;
+
+}
+
+.active > a, a:hover {
+    background-color: rgba(200, 200, 200, 0.3);
+    outline: medium none;
+    text-decoration: none;
+  }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    box-shadow: none;
+    border: none;
+
+  }
+
+
+h1 {
+color: white;
+font-size: 60px;
+text-align: center;
+padding-top: 0;
+padding-left: 20px;
+text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+
+.abouth1 {
+  color: black;
+  text-shadow: none;
+  font-size: 40px;
+}
+
+.aboutsmaller {
+  font-size: 45px;
+}
+
+#titleJL {
+  font-size: 100px;
+}
+
+.titlesmaller {
+  font-size: 80px;
+}
+
+#topBarJL {
+  color: white;
+  text-outline: white;
+  text-shadow: 2px 2px 4px rgba(24, 1, 21, 0.7);
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 0 0 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+/* CUSTOMIZE THE PORTOFOLIO ----------*/
+.portfolio {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  font-size: 50px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 800px;
+  background-color: black;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
