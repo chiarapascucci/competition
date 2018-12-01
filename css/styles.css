@@ -158,11 +158,12 @@ h3 {
 }
 * Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    padding: 500px;
+    font-size: 200px;
+    width: 200px;
     text-align: center;
     text-decoration: none;
+    border-radius: 50%
 }
 
 /* Add a hover effect if you want */
@@ -174,6 +175,7 @@ h3 {
 
 /* Facebook */
 .fa-facebook {
+
     background: #3B5998;
     color: white;
 }
